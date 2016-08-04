@@ -34,7 +34,7 @@ defmodule ExTwitter.Mixfile do
   def deps do
     [
       {:oauth, github: "tim/erlang-oauth"},
-      {:poison, "~> 2.0"},
+      {:poison, "~> 1.5 or ~> 2.0"},
       {:exvcr, "~> 0.8", only: :test},
       {:excoveralls, "~> 0.5", only: :test},
       {:meck, "~> 0.8.2", only: [:dev, :test]},
